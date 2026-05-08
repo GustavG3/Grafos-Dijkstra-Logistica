@@ -1,26 +1,27 @@
-📋 Entrega E3 - MVP (Núcleo Funcional)
+# TurisGraph — Planejador de Rotas Inteligentes
 
-O TurisGraph é um sistema de otimização logística voltado ao setor de turismo, desenvolvido para calcular rotas de menor custo entre destinos utilizando a Teoria dos Grafos. O foco desta entrega é demonstrar o funcionamento do algoritmo principal integrado aos dados reais.
+## Entrega E3 - MVP
 
-1. Descrição do Projeto
+O **TurisGraph** é um sistema de otimização logística voltado ao setor de turismo, desenvolvido para calcular rotas de menor custo entre destinos utilizando a Teoria dos Grafos.
 
+### 1. Descrição do Projeto
 Este projeto simula o planejamento de itinerários, permitindo identificar o caminho mais curto entre localidades específicas ou planejar roteiros completos com foco em eficiência de custo e distância.
 
-2. Estrutura do Projeto
+### 2. Estrutura do Projeto
+Abaixo está a organização das pastas conforme a arquitetura proposta:
 
-A organização das pastas segue os princípios de arquitetura em camadas definidos no Design Técnico (E2):
-
+```text
 TurisGraph/
 ├── data/
-│   └── mapa.json           # Dataset com cidades e conexões (JSON)
+│   └── mapa.json           # Dataset com cidades e conexões
 ├── src/
 │   ├── main.py             # Interface de linha de comando (CLI)
-│   ├── core/               # Domínio: Lógica da estrutura do Grafo
-│   ├── algorithms/         # Algoritmos: Implementação do Dijkstra
-│   └── infra/              # Infraestrutura: Módulo de leitura de arquivos
-├── tests/                  # Testes Unitários automatizados
-├── requirements.txt        # Lista de dependências do projeto
-└── README.md               # Documentação do projeto
+│   ├── core/               # Domínio: Lógica do Grafo
+│   ├── algorithms/         # Algoritmos: Dijkstra
+│   └── infra/              # Infraestrutura: Leitura de JSON
+├── tests/                  # Testes Unitários
+├── requirements.txt        # Dependências do projeto
+└── README.md               # Este arquivo
 
 
 3. Como Executar o MVP
