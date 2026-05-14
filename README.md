@@ -13,8 +13,8 @@ Abaixo está a organização das pastas conforme a arquitetura proposta:
 ```text
 TurisGraph/
 ├── data/
-│   └── mapa.json           # Dataset com cidades e conexões
 ├── src/
+└── mapa.json               # Dataset com cidades e conexões
 │   ├── main.py             # Interface de linha de comando (CLI)
 │   ├── core/               # Domínio: Lógica do Grafo
 │   ├── algorithms/         # Algoritmos: Dijkstra
